@@ -1,0 +1,10 @@
+{
+  "name": "TobyPyBot",
+  "description": "A server for puzzle-related slack commands.",
+  "image": "heroku/python",
+  "repository": "https://github.com/dplepage/tobypybot",
+  "env": {
+    // relative to puztool root
+    "PUZTOOL_DATA_DIR":"../data/"
+  },
+}
